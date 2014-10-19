@@ -7,12 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface PhotoManager : NSObject {
     NSString *test;
+    UIImage *firstImage;
+    NSMutableArray *animationImages;
 }
 
 @property (nonatomic, retain) NSString *test;
+@property (nonatomic, retain) UIImage *firstImage;
+@property (nonatomic, retain) NSMutableArray *animationImages;
 
 + (id)sharedManager;
 
