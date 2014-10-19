@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <Parse/Parse.h>
 #import "PhotoManager.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface ViewController ()
 
@@ -36,9 +37,24 @@
     
     [self.demoImages startAnimating];
     
-    [self.view addSubview:self.demoImages];
+    // [self.view addSubview:self.demoImages];
     
+    NSArray *devices = [AVCaptureDevice devices];
     
+    for (AVCaptureDevice *device in devices) {
+        
+        NSLog(@"Device name: %@", [device localizedName]);
+        
+        if ([device hasMediaType:AVMediaTypeVideo]) {
+            
+            if ([device position] == AVCaptureDevicePositionBack) {
+                NSLog(@"Device position : back");
+            }
+            else {
+                NSLog(@"Device position : front");
+            }
+        }
+    }
 }
 
 - (void)viewDidLayoutSubviews{
