@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7892856F-5F2D-4241-90D4-2B1C3BFB4DE8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Boilermake</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3443DCFE390C8C2C12911E6AE9E10CE158600933</key>
+		<string>https://github.com/yiqin/Boilermake.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Boilermake.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3443DCFE390C8C2C12911E6AE9E10CE158600933</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yiqin/Boilermake.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3443DCFE390C8C2C12911E6AE9E10CE158600933</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3443DCFE390C8C2C12911E6AE9E10CE158600933</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Boilermake</string>
+		</dict>
+	</array>
+</dict>
+</plist>

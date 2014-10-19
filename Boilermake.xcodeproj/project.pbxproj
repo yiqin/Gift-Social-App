@@ -15,6 +15,7 @@
 		8D9BFA5319F349FB007A9B83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BFA5219F349FB007A9B83 /* Images.xcassets */; };
 		8D9BFA5619F349FB007A9B83 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BFA5419F349FB007A9B83 /* LaunchScreen.xib */; };
 		8D9BFA6219F349FB007A9B83 /* BoilermakeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9BFA6119F349FB007A9B83 /* BoilermakeTests.m */; };
+		8D9BFA6D19F34B22007A9B83 /* PhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9BFA6C19F34B22007A9B83 /* PhotoManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		8D9BFA5B19F349FB007A9B83 /* BoilermakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoilermakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9BFA6019F349FB007A9B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D9BFA6119F349FB007A9B83 /* BoilermakeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoilermakeTests.m; sourceTree = "<group>"; };
+		8D9BFA6B19F34B22007A9B83 /* PhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoManager.h; sourceTree = "<group>"; };
+		8D9BFA6C19F34B22007A9B83 /* PhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				8D9BFA4719F349FB007A9B83 /* AppDelegate.m */,
 				8D9BFA4C19F349FB007A9B83 /* ViewController.h */,
 				8D9BFA4D19F349FB007A9B83 /* ViewController.m */,
+				8D9BFA6B19F34B22007A9B83 /* PhotoManager.h */,
+				8D9BFA6C19F34B22007A9B83 /* PhotoManager.m */,
 				8D9BFA4F19F349FB007A9B83 /* Main.storyboard */,
 				8D9BFA5219F349FB007A9B83 /* Images.xcassets */,
 				8D9BFA5419F349FB007A9B83 /* LaunchScreen.xib */,
@@ -224,6 +229,7 @@
 			files = (
 				8D9BFA4B19F349FB007A9B83 /* Boilermake.xcdatamodeld in Sources */,
 				8D9BFA4819F349FB007A9B83 /* AppDelegate.m in Sources */,
+				8D9BFA6D19F34B22007A9B83 /* PhotoManager.m in Sources */,
 				8D9BFA4E19F349FB007A9B83 /* ViewController.m in Sources */,
 				8D9BFA4519F349FB007A9B83 /* main.m in Sources */,
 			);
