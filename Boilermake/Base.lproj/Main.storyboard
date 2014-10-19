@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AFc-IH-jkM">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--First Demo-->
@@ -16,21 +15,7 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wL4-fY-oRo">
-                                <rect key="frame" x="26" y="72" width="548" height="472"/>
-                                <color key="backgroundColor" red="0.69019607839999997" green="0.48627450979999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="472" id="sW2-Zo-jZ3"/>
-                                </constraints>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="wL4-fY-oRo" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="hKV-3v-Xtv"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="wL4-fY-oRo" secondAttribute="trailing" constant="10" id="igt-7U-Gb2"/>
-                            <constraint firstItem="wL4-fY-oRo" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="10" id="ukI-oB-ApP"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="First Demo" id="9o7-ZF-D5e"/>
                 </viewController>

@@ -10,6 +10,8 @@
 
 @implementation PhotoManager
 @synthesize test;
+@synthesize firstImage;
+@synthesize animationImages;
 
 +(id)sharedManager
 {
@@ -25,6 +27,13 @@
 {
     if (self = [super init]) {
         test = @"YESSSSSS";
+        
+        firstImage = [UIImage imageNamed:@"IMG_1103.JPG"];
+        animationImages = [NSMutableArray arrayWithObjects:firstImage,
+                                                            [UIImage imageNamed:@"IMG_1104.JPG"],
+                                                            [UIImage imageNamed:@"IMG_1105.JPG"],
+                                                            [UIImage imageNamed:@"IMG_1105.JPG"],
+                                                            [UIImage imageNamed:@"IMG_1104.JPG"], nil];
     }
     return self;
 }
@@ -40,5 +49,18 @@
     PhotoManager *shared = [PhotoManager sharedManager];
     shared.test = selectedTest;
 }
+
++(UIImage *) getFirstImage
+{
+    PhotoManager *shared = [PhotoManager sharedManager];
+    return shared.firstImage;
+}
+
++(NSMutableArray *) getAnimationImages
+{
+    PhotoManager *shared = [PhotoManager sharedManager];
+    return shared.animationImages;
+}
+
 
 @end

@@ -29,6 +29,9 @@
 		8D9BFA8419F34D28007A9B83 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9BFA8319F34D28007A9B83 /* Security.framework */; };
 		8D9BFA8619F34D2D007A9B83 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9BFA8519F34D2D007A9B83 /* StoreKit.framework */; };
 		8D9BFA8819F34D36007A9B83 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9BFA8719F34D36007A9B83 /* SystemConfiguration.framework */; };
+		8D9BFA8C19F351E7007A9B83 /* IMG_1105.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BFA8919F351E7007A9B83 /* IMG_1105.JPG */; };
+		8D9BFA8D19F351E7007A9B83 /* IMG_1104.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BFA8A19F351E7007A9B83 /* IMG_1104.JPG */; };
+		8D9BFA8E19F351E7007A9B83 /* IMG_1103.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 8D9BFA8B19F351E7007A9B83 /* IMG_1103.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,9 @@
 		8D9BFA8319F34D28007A9B83 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		8D9BFA8519F34D2D007A9B83 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		8D9BFA8719F34D36007A9B83 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8D9BFA8919F351E7007A9B83 /* IMG_1105.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1105.JPG; sourceTree = "<group>"; };
+		8D9BFA8A19F351E7007A9B83 /* IMG_1104.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1104.JPG; sourceTree = "<group>"; };
+		8D9BFA8B19F351E7007A9B83 /* IMG_1103.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1103.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,9 @@
 			children = (
 				8D9BFA4619F349FB007A9B83 /* AppDelegate.h */,
 				8D9BFA4719F349FB007A9B83 /* AppDelegate.m */,
+				8D9BFA8919F351E7007A9B83 /* IMG_1105.JPG */,
+				8D9BFA8A19F351E7007A9B83 /* IMG_1104.JPG */,
+				8D9BFA8B19F351E7007A9B83 /* IMG_1103.JPG */,
 				8D9BFA4C19F349FB007A9B83 /* ViewController.h */,
 				8D9BFA4D19F349FB007A9B83 /* ViewController.m */,
 				8D9BFA6B19F34B22007A9B83 /* PhotoManager.h */,
@@ -267,8 +276,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D9BFA8E19F351E7007A9B83 /* IMG_1103.JPG in Resources */,
 				8D9BFA5119F349FB007A9B83 /* Main.storyboard in Resources */,
 				8D9BFA5619F349FB007A9B83 /* LaunchScreen.xib in Resources */,
+				8D9BFA8C19F351E7007A9B83 /* IMG_1105.JPG in Resources */,
+				8D9BFA8D19F351E7007A9B83 /* IMG_1104.JPG in Resources */,
 				8D9BFA5319F349FB007A9B83 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

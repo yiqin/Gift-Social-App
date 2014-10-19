@@ -24,4 +24,9 @@
 +(NSString *) getTest;
 +(void) setTest:(NSString *) selectedTest;
 
++(UIImage *) getFirstImage;
+
++(NSMutableArray *) getAnimationImages;
+
+
 @end

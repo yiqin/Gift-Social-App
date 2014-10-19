@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <Parse/Parse.h>
+#import "PhotoManager.h"
 
 @interface ViewController ()
 
@@ -23,6 +24,25 @@
     testObject[@"foo"] = @"bar";
     [testObject saveInBackground];
     
+    // self.demoImages = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 960)];
+    self.demoImages = [[UIImageView alloc] initWithImage:[PhotoManager getFirstImage]];
+    self.demoImages.animationImages = [PhotoManager getAnimationImages];
+    
+    self.demoImages.backgroundColor = [UIColor redColor];
+    
+    self.demoImages.contentMode = UIViewContentModeScaleAspectFill;
+    self.demoImages.animationRepeatCount = 100;
+    self.demoImages.animationDuration = 0.5;
+    
+    [self.demoImages startAnimating];
+    
+    [self.view addSubview:self.demoImages];
+    
+    
+}
+
+- (void)viewDidLayoutSubviews{
+    self.demoImages.frame = CGRectMake(10, 100, 300, 402);
 }
 
 - (void)didReceiveMemoryWarning {

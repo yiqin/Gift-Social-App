@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <Parse/Parse.h>
+#import "PhotoManager.h"
 
 @interface AppDelegate ()
 
@@ -18,6 +19,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // Start singleton methods
+    [PhotoManager sharedManager];
+    
     [Parse setApplicationId:@"aAo4oD5fmt99uTGNSOonhxi8zDbKWEhmB4NJKYjj"
                   clientKey:@"wmOxtasEZgzeMIY8mlzABAJ8rIVkYOLRH79n0uAR"];
     
